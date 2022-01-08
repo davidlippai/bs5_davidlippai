@@ -55,7 +55,8 @@ img {
   transition: all ease-in-out 0.35s;
   max-width: 660px;
   display: block;
-  margin: 0 auto;
+  margin: 2rem auto;
+  border-radius: 0.5rem;
 }
 
 img:hover {
