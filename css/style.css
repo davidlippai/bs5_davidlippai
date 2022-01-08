@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(#44A08D,#093637);
+  color: white;
+  height: 100vh;
+}
+
+section {
+  
+}
+
+footer {
+  position: fixed
+  bottom: 0;
+ height: 10vh
+}
+
+/*NAV*/
+
+nav {
+  background-color: white;
+}
+
+.container-fluid a {
+  color: #093637;
+  text-decoration: none;
+  font-variant: small-caps;
+  letter-spacing: 0.25rem;
+  font-size: 2rem;
+}
+
+.navbar-nav {
+  font-size: 1.5rem;
+}
