@@ -7,12 +7,8 @@
 body {
   background: linear-gradient(#44A08D,#093637);
   color: white;
-  height: 100vh;
 }
 
-section {
-  
-}
 
 
 /*NAV*/
@@ -39,6 +35,24 @@ nav {
 
 /*NAV*/
 
+/*SECTION*/
+section {
+ margin: 2rem;
+}
+
+h2 {
+  text-align: center;
+  padding: 2rem;
+}
+
+p {
+  line-height: 2rem;
+}
+
+article {
+  min-height: 25vh;
+}
+
 /*FOOTER*/
 
 footer {
@@ -49,4 +63,5 @@ footer {
   display: flex;
   justify-content: space-evenly;
   font-size: 1.2rem;
+  padding: 1rem;
 }
