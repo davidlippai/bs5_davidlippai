@@ -7,10 +7,17 @@
 body {
   background: linear-gradient(#44A08D,#093637);
   color: white;
-
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 
+h1 {
+  text-align: center;
+  font-variant: small-caps;
+  letter-spacing: 0.5rem;
+  text-shadow: 2px 3px 0.5rem rgb(253, 253, 253);
+}
 
 /*NAV*/
 
@@ -23,7 +30,7 @@ nav {
   text-decoration: none;
   font-variant: small-caps;
   letter-spacing: 0.25rem;
-  font-size: 2rem;
+  font-size: 1.25rem;
 }
 
 .nav-link {
@@ -38,8 +45,22 @@ nav {
 
 /*SECTION*/
 section {
- margin: 2rem 0.5rem;
+ margin: 2rem auto;
  max-width: 960px;
+}
+
+img {
+  width: 100vw;
+  filter: grayscale(100%);
+  transition: all ease-in-out 0.35s;
+  max-width: 660px;
+  display: block;
+  margin: 0 auto;
+}
+
+img:hover {
+  filter: grayscale(0%);
+  transition: all ease-in-out 0.35s;
 }
 
 h2 {
@@ -49,6 +70,7 @@ h2 {
 
 p {
   line-height: 2rem;
+  margin: 0 0.5rem;
 }
 
 article {
