@@ -14,11 +14,6 @@ section {
   
 }
 
-footer {
-  position: fixed
-  bottom: 0;
- height: 10vh
-}
 
 /*NAV*/
 
@@ -34,6 +29,24 @@ nav {
   font-size: 2rem;
 }
 
-.navbar-nav {
-  font-size: 1.5rem;
+.nav-link {
+  font-size: 1rem;
+}
+
+.active {
+  font-size: 1rem;
+}
+
+/*NAV*/
+
+/*FOOTER*/
+
+footer {
+  position: sticky;
+  bottom: 0;
+  background-color: white;
+  color: #093637;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 1.2rem;
 }
